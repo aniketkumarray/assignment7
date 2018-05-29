@@ -1,0 +1,13 @@
+def area(radius):
+    ''' fuction to calculate area of a sphere '''
+    ar = 4*3.14*radius**2
+    return ar
+
+
+radius = int(input("enter the radius of sphere"))
+print("area of sphere is {} ".format(area(radius)))
+
+
+output:
+enter the radius of sphere2
+area of sphere is 50.24 

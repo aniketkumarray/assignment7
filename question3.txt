@@ -1,0 +1,22 @@
+def timetable(n, time=1):
+    if time <= 10:
+        print(n, time, n*time)
+        timetable(n, time+1)
+    else:
+        return
+
+
+timetable(int(input('Number: ')))
+
+output:
+Number: 12
+12 1 12
+12 2 24
+12 3 36
+12 4 48
+12 5 60
+12 6 72
+12 7 84
+12 8 96
+12 9 108
+12 10 120

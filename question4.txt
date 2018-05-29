@@ -1,0 +1,17 @@
+def  pow(a,b):
+    count=1
+    if b == 1:
+        return a
+    if b!=1:
+        return  a*pow(a,b-1)
+
+
+a=int(input("enter base:"))
+b=int(input("enter exponent:"))
+print(pow(a,b))
+
+output:
+
+enter base:2
+enter exponent:3
+8
