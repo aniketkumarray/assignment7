@@ -1,0 +1,15 @@
+def recur_factorial(n):
+   """Function to return the factorial
+   of a number using recursion"""
+   if n == 1:
+       return n
+   else:
+       return n*recur_factorial(n-1)
+
+no=int(input("enter the number for which u want to find the factorial"))
+d=eval(" { %d : %d } " % (no,recur_factorial(no)))
+for i in d:
+    print("{}  {}".format(i, d[i]))
+output:
+enter the number for which u want to find the factorial4
+4  24
