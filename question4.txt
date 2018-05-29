@@ -1,4 +1,5 @@
 def  pow(a,b):
+    '''function to raise a to the power b'''
     count=1
     if b == 1:
         return a

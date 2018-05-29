@@ -1,4 +1,5 @@
 def perfect(n):
+    '''fuction to find perfect numbers'''
     sum1 = 0
     for i in range(1, n):
         if n % i == 0:

@@ -1,4 +1,5 @@
 def timetable(n, time=1):
+    '''function to calculate tables'''
     if time <= 10:
         print(n, time, n*time)
         timetable(n, time+1)
